@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-j@&%k#dvv2s401$o!$9=!^p%8(a(qn(k=31#!9$=xhe04s6+6k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'tournament-server-s7j2.onrender.com'
+]
 
 
 # Application definition
